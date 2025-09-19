@@ -1,7 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+<<<<<<< HEAD
 import NoteInput from './NoteInput';
 import NoteList from './NoteList';
+=======
+>>>>>>> 41550f9 (Menambahkan file dari versi lokal-mememperbarui dg menambahkan react hooks)
 
 class NoteAppBody extends React.Component {
   render() {
@@ -37,6 +40,10 @@ NoteAppBody.propTypes = {
   onDelete: PropTypes.func.isRequired,
   onArchive: PropTypes.func.isRequired,
   onAddNote: PropTypes.func.isRequired,
+<<<<<<< HEAD
 }
+=======
+};
+>>>>>>> 41550f9 (Menambahkan file dari versi lokal-mememperbarui dg menambahkan react hooks)
 
 export default NoteAppBody;

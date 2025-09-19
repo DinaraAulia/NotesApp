@@ -9,5 +9,9 @@ const root = createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <App />
+<<<<<<< HEAD
   </BrowserRouter>
+=======
+  </BrowserRouter>,
+>>>>>>> 41550f9 (Menambahkan file dari versi lokal-mememperbarui dg menambahkan react hooks)
 );
