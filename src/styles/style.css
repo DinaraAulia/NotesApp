@@ -1,4 +1,5 @@
 :root {
+<<<<<<< HEAD
   --primary: #BB86FC;
   --primary-variant: #3700B3;
   --secondary: #03DAC6;
@@ -14,6 +15,23 @@
 [data-theme="light"] {
   --background: #DDDDDD;
   --suface: #FFFFFF;
+=======
+  --primary: #bb86fc;
+  --primary-variant: #3700b3;
+  --secondary: #03dac6;
+  --background: #121212;
+  --surface: #121212;
+  --error: #cf6679;
+  --warning: #f39c12;
+  --on-background: #ffffff;
+  --on-background-grey: #c7c7c7;
+  --on-surface: #ffffff;
+}
+
+[data-theme="light"] {
+  --background: #dddddd;
+  --suface: #ffffff;
+>>>>>>> 41550f9 (Menambahkan file dari versi lokal-mememperbarui dg menambahkan react hooks)
   --on-background: #333333;
   --on-background-grey: #6d6d6d;
   --on-surface: #333333;
@@ -29,9 +47,14 @@ a {
   color: var(--on-background);
 }
 
+<<<<<<< HEAD
 
 body {
   font-family: 'Inter', sans-serif;
+=======
+body {
+  font-family: "Inter", sans-serif;
+>>>>>>> 41550f9 (Menambahkan file dari versi lokal-mememperbarui dg menambahkan react hooks)
 }
 
 .app-container {
@@ -44,7 +67,11 @@ body {
 header {
   display: flex;
   align-items: center;
+<<<<<<< HEAD
   justify-content: center;
+=======
+  justify-content: space-between;
+>>>>>>> 41550f9 (Menambahkan file dari versi lokal-mememperbarui dg menambahkan react hooks)
   padding: 16px;
   border-bottom: 1px solid var(--on-background);
 }
@@ -55,6 +82,7 @@ header h1 {
 
 header .navigation ul li {
   display: inline-block;
+<<<<<<< HEAD
   font-size: 24px;
   margin: 0 8px;
 }
@@ -72,29 +100,82 @@ main {
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 16px;
   padding: 16px 8px;
+=======
+  font-size: 35px;
+  margin: 0 8px;
+}
+
+header .navigation ul li a,
+header .navigation ul li .navigation__icon-button {
+  color: var(--on-background);
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 35px;
+}
+
+.navigation__icon-button {
+  font-family: inherit;
+}
+
+main {
+  margin: 0px auto;
+  padding: 18px;
+  width: 96%;
+  max-width: 1800px;
+}
+
+.notes-list {
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 16px;
+  padding: 0 8px;
+>>>>>>> 41550f9 (Menambahkan file dari versi lokal-mememperbarui dg menambahkan react hooks)
 }
 
 .notes-list-empty {
   margin-top: 32px;
   padding: 16px 8px;
+<<<<<<< HEAD
+=======
+  font-size: 25px;
+>>>>>>> 41550f9 (Menambahkan file dari versi lokal-mememperbarui dg menambahkan react hooks)
 }
 
 .notes-list-empty p {
   text-align: center;
   color: var(--on-background-grey);
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 41550f9 (Menambahkan file dari versi lokal-mememperbarui dg menambahkan react hooks)
 .note-item {
   padding: 16px;
   border-radius: 8px;
   border: 1px solid var(--on-background);
   border-top: 5px solid;
+<<<<<<< HEAD
   height: 100%;
+=======
+  height: 250px;
+>>>>>>> 41550f9 (Menambahkan file dari versi lokal-mememperbarui dg menambahkan react hooks)
   display: flex;
   flex-direction: column;
 }
 
 .note-item__title {
   margin: 4px 0;
+<<<<<<< HEAD
+=======
+  overflow: hidden;
+  text-overflow: ellipsis;
+>>>>>>> 41550f9 (Menambahkan file dari versi lokal-mememperbarui dg menambahkan react hooks)
 }
 
 .note-item__createdAt {
@@ -104,24 +185,38 @@ main {
 }
 
 .note-item__content {
+<<<<<<< HEAD
   flex-grow: 1; /* Konten akan mengisi sisa ruang */
+=======
+  flex-grow: 1;
+>>>>>>> 41550f9 (Menambahkan file dari versi lokal-mememperbarui dg menambahkan react hooks)
 }
 
 .note-item__body {
   margin-top: 16px;
   overflow: hidden;
   display: -webkit-box;
+<<<<<<< HEAD
   text-overflow: ellipsis;
   -webkit-line-clamp: 6;
   -webkit-box-orient: vertical;
   line-clamp: 6;
   box-orient: vertical;
+=======
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  line-height: 1.2;
+>>>>>>> 41550f9 (Menambahkan file dari versi lokal-mememperbarui dg menambahkan react hooks)
   text-overflow: ellipsis;
 }
 
 .detail-page {
   margin: 0 auto;
+<<<<<<< HEAD
   margin-top: 32px; 
+=======
+  margin-top: 32px;
+>>>>>>> 41550f9 (Menambahkan file dari versi lokal-mememperbarui dg menambahkan react hooks)
   width: 90%;
 }
 
@@ -132,7 +227,11 @@ main {
 }
 
 .detail-page__createdAt {
+<<<<<<< HEAD
   color: var(--on-background-grey)
+=======
+  color: var(--on-background-grey);
+>>>>>>> 41550f9 (Menambahkan file dari versi lokal-mememperbarui dg menambahkan react hooks)
 }
 
 .detail-page__body {
@@ -141,7 +240,13 @@ main {
   font-size: 18px;
 }
 
+<<<<<<< HEAD
 .detail-page__action, .homepage__action, .add-new-page__action {
+=======
+.detail-page__action,
+.homepage__action,
+.add-new-page__action {
+>>>>>>> 41550f9 (Menambahkan file dari versi lokal-mememperbarui dg menambahkan react hooks)
   position: fixed;
   display: flex;
   gap: 16px;
@@ -174,7 +279,11 @@ main {
   background-color: transparent;
   border: 0;
   color: var(--on-background);
+<<<<<<< HEAD
   font-family: 'Inter', sans-serif;
+=======
+  font-family: "Inter", sans-serif;
+>>>>>>> 41550f9 (Menambahkan file dari versi lokal-mememperbarui dg menambahkan react hooks)
   font-size: 64px;
   font-weight: bold;
   padding: 8px 0;
@@ -189,7 +298,11 @@ main {
   background-color: transparent;
   border: 0;
   color: var(--on-background);
+<<<<<<< HEAD
   font-family: 'Inter', sans-serif;
+=======
+  font-family: "Inter", sans-serif;
+>>>>>>> 41550f9 (Menambahkan file dari versi lokal-mememperbarui dg menambahkan react hooks)
   font-size: 24px;
   padding: 8px 0;
   min-height: 500px;
@@ -197,12 +310,20 @@ main {
 
 [data-placeholder]:empty::before {
   content: attr(data-placeholder);
+<<<<<<< HEAD
   color: var(--on-background-grey)
+=======
+  color: var(--on-background-grey);
+>>>>>>> 41550f9 (Menambahkan file dari versi lokal-mememperbarui dg menambahkan react hooks)
 }
 
 .search-bar input {
   margin: 16px 0;
+<<<<<<< HEAD
   font-family: 'Inter', sans-serif;
+=======
+  font-family: "Inter", sans-serif;
+>>>>>>> 41550f9 (Menambahkan file dari versi lokal-mememperbarui dg menambahkan react hooks)
   background-color: transparent;
   border: 1px solid var(--on-background);
   border-radius: 4px;
@@ -215,7 +336,12 @@ main {
   color: var(--on-background-grey);
 }
 
+<<<<<<< HEAD
 .toggle-theme, .toggle-locale {
+=======
+.toggle-theme,
+.toggle-locale {
+>>>>>>> 41550f9 (Menambahkan file dari versi lokal-mememperbarui dg menambahkan react hooks)
   background-color: transparent;
   border: 0;
   cursor: pointer;
@@ -233,18 +359,35 @@ main {
   font-size: 28px;
 }
 
+<<<<<<< HEAD
 .input-login, .input-register {
   margin: 32px 0;
 }
 
 .input-login label, .input-register label {
+=======
+.input-login,
+.input-register {
+  margin: 32px 0;
+}
+
+.input-login label,
+.input-register label {
+>>>>>>> 41550f9 (Menambahkan file dari versi lokal-mememperbarui dg menambahkan react hooks)
   font-size: 24px;
   font-weight: lighter;
 }
 
+<<<<<<< HEAD
 .input-login input, .input-register input {
   font-size: 18px;
   font-family: 'Inter', sans-serif;
+=======
+.input-login input,
+.input-register input {
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+>>>>>>> 41550f9 (Menambahkan file dari versi lokal-mememperbarui dg menambahkan react hooks)
   margin-top: 8px;
   margin-bottom: 16px;
   display: block;
@@ -253,11 +396,20 @@ main {
   background-color: transparent;
   border-radius: 8px;
   border: 3px solid var(--on-background);
+<<<<<<< HEAD
   color: var(--on-background)
 }
 
 .input-login button, .input-register button {
   font-family: 'Inter', sans-serif;
+=======
+  color: var(--on-background);
+}
+
+.input-login button,
+.input-register button {
+  font-family: "Inter", sans-serif;
+>>>>>>> 41550f9 (Menambahkan file dari versi lokal-mememperbarui dg menambahkan react hooks)
   font-weight: bold;
   font-size: 24px;
   width: 100%;
@@ -285,17 +437,24 @@ main {
     grid-template-columns: repeat(2, 1fr);
   }
 
+<<<<<<< HEAD
   .detail-page__title { 
+=======
+  .detail-page__title {
+>>>>>>> 41550f9 (Menambahkan file dari versi lokal-mememperbarui dg menambahkan react hooks)
     font-size: 64px;
   }
 }
 
+<<<<<<< HEAD
 @media screen and (min-width: 850px) {
   .notes-list {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
+=======
+>>>>>>> 41550f9 (Menambahkan file dari versi lokal-mememperbarui dg menambahkan react hooks)
 @media screen and (min-width: 1200px) {
   .notes-list {
     grid-template-columns: repeat(4, 1fr);

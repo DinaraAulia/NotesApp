@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 import React from "react";
 import PropTypes from 'prop-types';
 import { showFormattedDate } from '../utils/index';
 
 function NoteItem({ title, createdAt, body }){
+=======
+import React from 'react';
+import PropTypes from 'prop-types';
+import { showFormattedDate } from '../utils/network-data'; 
+
+const NoteItem = ({ title, createdAt, body }) => {
+>>>>>>> 41550f9 (Menambahkan file dari versi lokal-mememperbarui dg menambahkan react hooks)
   return (
     <div className="note-item">
       <div className="note-item__content">
@@ -12,7 +20,11 @@ function NoteItem({ title, createdAt, body }){
       </div>
     </div>
   );
+<<<<<<< HEAD
 }
+=======
+};
+>>>>>>> 41550f9 (Menambahkan file dari versi lokal-mememperbarui dg menambahkan react hooks)
 
 NoteItem.propTypes = {
   title: PropTypes.string.isRequired,
